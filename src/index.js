@@ -3,7 +3,11 @@ import React from 'react';
 // const ReactDom = require('react-dom');
 import ReactDom from 'react-dom';
 import './index.css';
-import './Heading';
+// import Heading from './Heading';
+// import Para from './para'; 
+// import List from './list';
+import App from './app';
+// import youtuber,{favprog, myName} from './app';
 // ReactDom.render(
 //   <div>
 // <h1>hi amit is there how are you</h1>
@@ -109,13 +113,24 @@ import './Heading';
 // ReactDom.render(<>
 // <h1>Hello Sir, <span style={cssStyle}>{greeting}</span></h1>
 // </>,document.getElementById('root')); 
+///////////////////////////////////////////
+// ReactDom.render(<>
+// <App/>
+
+// </>,document.getElementById('root')); 
+////////////////////////////////////////////////////
+// ReactDom.render(<>
+//     {/* <App/> */}
+//     <ol>
+//         <li>
+//             amit kumar
+//         </li>
+//         <li>{youtuber}</li>
+//         <li>{favprog}</li>
+//         <li>{myName()}</li>
+//     </ol>
+//     </>,document.getElementById('root')); 
 
 ReactDom.render(<>
- <p>This is my world </p>
- <ol>
-    <li>Amit Kumar Thakur</li>
-    <li>Jaynit Ananad</li>
-    <li>Vivek Singla</li>
-    <li>Sanjay Pandey</li>
- </ol>
-</>,document.getElementById('root')); 
+    <App/>
+</>,document.getElementById('root'));
